@@ -122,9 +122,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = "/var/www/statics"
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "polls/static"),
-    '/var/www/static/',
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'polls/static/media')
