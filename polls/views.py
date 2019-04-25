@@ -14,3 +14,7 @@ def blog(request):
 	    "posts":posts,
 	    "numPost": numPost
 	    })
+
+
+def cvNaza(request):
+    return render(request, 'vistas/cvNaza.html')

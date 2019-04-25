@@ -15,6 +15,7 @@
 
   {% load staticfiles %}
   <link rel='stylesheet' href="{% static 'css/agency.min.css' %}">
+  <link rel='stylesheet' href="{% static 'css/custom.css' %}">
   <link rel='stylesheet' href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
   <link rel='stylesheet' href="{% static 'vendor/fontawesome-free/css/all.min.css' %}">
   <link rel='stylesheet' href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}">
@@ -300,10 +301,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
+            <a href="/cv1"><img id="nazaPic" class="mx-auto rounded-circle" src="{% static 'img/team/naza.jpeg' %}" alt=""></a>
+            <h4>Naza la Rubia</h4>
             <p class="text-muted">Lead Designer</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
@@ -324,35 +325,11 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
+            <img class="mx-auto rounded-circle" src="{% static 'img/team/3.jpg' %}" alt="">
+            <h4>Irene la China</h4>
             <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
